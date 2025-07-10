@@ -7,7 +7,21 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* header */
+.header{
+    background-image: url('/images/developer.png'),url('/images/header_bg.png'); 
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 /* shared style */
+.text-center{
+    align-items:center;
+    margin: 0 100px;
+    
+}
+.scd-bg {
+    background-color: #FFF8F3;
+}
 .text-primary{
     color: brown;
 }
@@ -16,12 +30,22 @@
 
 }
 .btn-primary{
-    background-color: lightseagreen;
+    background-color: brown;
     border-radius: 5px;
     border: none;
     font-weight: bold;
     color: white;
     font-size: large;
+    margin-left: 10px;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: brown;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
 }
 
 /* nav styles */
@@ -29,7 +53,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 50px;
+    margin: 0px 100px;
     
 }
 nav ul{
@@ -50,6 +74,80 @@ nav li a{
     font-weight: bold;
     
 }
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 0 120px;
+}
+.banner-content{
+    max-width: 580px;
+
+}
+
 .banner-description{
+
     
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-pic{
+    width: 580px;
+
+}
+/* main styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+}
+
+/* about styles */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 100px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    font-weight: 600;
+    color: brown;
+}
+.item-description{
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+.skills-container{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.skills{
+    text-align: center;
+    
+}
+.skill{
+   padding: 30px;
+   border-radius: 5px;
+   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description{
+    padding: 0px 20px;
 }
